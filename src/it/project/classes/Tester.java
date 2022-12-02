@@ -4,17 +4,17 @@ public class Tester {
 
     public static void main(String[] args){
 
-        Student Franco, Gianluca;
-        Franco = new Student("Franco");
-        Gianluca = new Student("Gianluca");
+        Student student1, studen2;
+        student1 = new Student("Franco");
+        studen2 = new Student("Gianluca");
 
-        Teacher Paolo = new Teacher();
-        Paolo.teacherName = "Paolo";
+        Teacher teacher1 = new Teacher();
+        teacher1.teacherName = "Paolo";
 
-        Paolo.assignGrade(Franco, 28);
-        Paolo.assignGrade(Gianluca, 24);
+        teacher1.assignGrade(student1, 28);
+        teacher1.assignGrade(studen2, 24);
 
-        Franco.getStudentDetails();
-        Gianluca.getStudentDetails();
+        student1.getStudentDetails();
+        studen2.getStudentDetails();
     }
 }

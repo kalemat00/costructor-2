@@ -1,12 +1,16 @@
 package it.project.classes;
 
 public class Student {
-    public String name;
+    private String name;
     public int grade;
 
     public Student( String name){
         this.name = name;
         System.out.println("the student " + name + " has been created.");
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public void getStudentDetails(){

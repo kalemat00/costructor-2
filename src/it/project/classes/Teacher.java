@@ -10,7 +10,7 @@ public class Teacher {
     public void assignGrade(Student student, int finalGrade){
         System.out.println(" ------------ ");
         student.grade = finalGrade;
-        System.out.println("The student " + student.name + " has received the grade: " + finalGrade);
+        System.out.println("The student " + student.getName() + " has received the grade: " + finalGrade);
         System.out.println(" ------------ \n");
     }
 }
